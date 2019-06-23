@@ -3,7 +3,7 @@ Repositório para agrupar todos os códigos de resolução de métodos utilizado
 
 ###Metodos presentes neste repositório :
  - [x] Bisseção 
- - [ ] Secante
+ - [x] Secante
  - [ ] Gauss
  - [ ] Gauss-Seidel
  - [ ] Newton-Raphson
