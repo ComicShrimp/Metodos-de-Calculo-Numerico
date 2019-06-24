@@ -32,7 +32,7 @@ for r in range(0, n):
 matriz.append(res)
 
 tolerancia = float(input('Digite a tolerancia: '))
-valores_init = str(input('Usar valores iniciais ? [y/n] '))
+#valores_init = str(input('Usar valores iniciais ? [y/n] '))
 
 valore_x = [0] * n
 
