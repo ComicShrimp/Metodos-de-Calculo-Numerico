@@ -7,7 +7,7 @@ Repositório para agrupar todos os códigos de resolução de métodos utilizado
 
  - [x] Bisseção 
  - [x] Secante
- - [ ] Gauss
+ - [x] Gauss
  - [x] Gauss-Seidel (Obs: melhorar o programa)
  - [ ] Newton-Raphson
  - [ ] Interpolação e Ajuste de Curvas
