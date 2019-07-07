@@ -10,7 +10,12 @@ Repositório para agrupar todos os códigos de resolução de métodos utilizado
  - [x] Gauss
  - [x] Gauss-Seidel (Obs: melhorar o programa)
  - [ ] Newton-Raphson
- - [ ] Interpolação e Ajuste de Curvas
+ - [ ] Minimos Quadrados
+ - [ ] Polinomio de Newton
+ - [x] Diferenças Finitas
+ - [ ] Lagrange
+ - [ ] Trapezio
+ - [ ] Simpson
 
 ### C:
 
