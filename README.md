@@ -14,7 +14,7 @@ Repositório para agrupar todos os códigos de resolução de métodos utilizado
  - [ ] Polinomio de Newton
  - [x] Diferenças Finitas
  - [ ] Lagrange
- - [ ] Trapezio
+ - [x] Trapezio
  - [ ] Simpson
 
 ### C:
