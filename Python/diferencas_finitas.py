@@ -1,3 +1,4 @@
+# Created by: Mário Victor Ribeiro Silva
 import math
 
 # Modificar de Acordo com a questão
