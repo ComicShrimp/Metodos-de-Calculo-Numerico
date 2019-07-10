@@ -13,7 +13,7 @@ Repositório para agrupar todos os códigos de resolução de métodos utilizado
  - [ ] Minimos Quadrados
  - [ ] Polinomio de Newton
  - [x] Diferenças Finitas
- - [ ] Lagrange
+ - [x] Lagrange
  - [x] Trapezio
  - [ ] Simpson 1/3
  - [ ] Simpson 3/8
