@@ -15,7 +15,7 @@ Repositório para agrupar todos os códigos de resolução de métodos utilizado
  - [x] Diferenças Finitas
  - [x] Lagrange
  - [x] Trapezio
- - [ ] Simpson 1/3
+ - [x] Simpson 1/3
  - [ ] Simpson 3/8
 
 ### C:
