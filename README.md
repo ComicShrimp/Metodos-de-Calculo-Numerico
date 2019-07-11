@@ -16,7 +16,7 @@ Repositório para agrupar todos os códigos de resolução de métodos utilizado
  - [x] Lagrange
  - [x] Trapezio
  - [x] Simpson 1/3
- - [ ] Simpson 3/8
+ - [x] Simpson 3/8
 
 ### C:
 
