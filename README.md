@@ -10,7 +10,7 @@ Repositório para agrupar todos os códigos de resolução de métodos utilizado
  - [x] Gauss
  - [x] Gauss-Seidel (Obs: melhorar o programa)
  - [ ] Newton-Raphson
- - [ ] Minimos Quadrados
+ - [x] Minimos Quadrados
  - [ ] Polinomio de Newton
  - [x] Diferenças Finitas
  - [x] Lagrange
