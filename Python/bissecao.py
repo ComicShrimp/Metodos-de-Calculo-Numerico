@@ -1,6 +1,7 @@
 # Created by: Mário Victor Ribeiro Silva
 import math
 
+# Função onde estará a equação usada no problema
 def equacao(x):
 
     # Digitar a equação para o metodo da bisseção entre os parentesis.
@@ -20,9 +21,11 @@ tol = float(input('Digite a tolerância: '))
 
 erro = -1
 
+# Monta a Tabela
 print('-' * 73)
 print('| {:^9} | {:^9} | {:^9} | {:^9} | {:^9} | {:^9} |'.format('a', 'b', 'Xn', 'F(a)', 'F(Xn)', 'Tol.'))
 
+# Laço de Repetição para executar os calculos até atingir a tolerância
 while erro > tol or erro == -1:
 
     Xn = (a + b) / 2

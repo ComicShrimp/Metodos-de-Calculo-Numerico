@@ -8,6 +8,8 @@ x = []
 i = 0
 
 print('\nX\n')
+
+# Obtem valores de X
 while i < pontos:
     x.append(float(input('X ({}): '.format(i))))
     i = i + 1
@@ -16,6 +18,8 @@ print('\nY\n')
 
 y = []
 i = 0
+
+# Obtem valores de Y
 while i < pontos:
     y.append(float(input('Y ({}): '.format(i))))
     i = i + 1
@@ -24,12 +28,14 @@ valorEncontrar = float(input('Para qual valor ? '))
 
 i = 0
 
+# Variaveis utilizadas
 somax = 0
 somay = 0
 somax2 = 0
 somaxy = 0
 quadradoSomaX = 0
 
+# Laço para realizar o somatorio de todos os pontos
 while i < pontos:
     somax = somax + x[i]
     somay = somay + y[i]

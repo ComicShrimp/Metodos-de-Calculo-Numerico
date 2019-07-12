@@ -11,6 +11,7 @@ b = float(input('Valor de b: '))
 
 passos = input('Especificar passo (s/n) ? ')
 
+# obtem o tamanho do passo
 if passos == 's':
     seg = float(input('Quantidade de segmentos (Deve ser divisivil por 3): '))
     h = (b - a) / seg

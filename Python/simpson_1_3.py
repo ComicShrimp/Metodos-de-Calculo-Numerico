@@ -11,6 +11,7 @@ b = float(input('Valor de b: '))
 
 passos = input('Especificar passo (s/n) ? ')
 
+# Calcula o tamanho do passo
 if passos == 's':
     h = float(input('Digite o passo: '))
     h = (b - a) / h
@@ -24,6 +25,7 @@ k = 2
 
 j = a + h
 
+# Realiza os somatórios das funções
 while j < b:
     if k % 2 == 0:
         sompar = sompar + funcao(j)
@@ -33,5 +35,6 @@ while j < b:
     k = k + 1
     j = j + h
 
+# Calcula o valor final
 If = (h / 3) * (funcao(a) + (4 * sompar) + (2 * somimpar) + funcao(b))
 print('Resultado de I(f): {:.6f}'.format(If))

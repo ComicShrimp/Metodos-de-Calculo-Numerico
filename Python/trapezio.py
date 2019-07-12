@@ -1,6 +1,7 @@
 # Created by: Mário Victor Ribeiro Silva
 import math
 
+
 def funcao(x):
     return 1 - math.pow(math.e, (-2 * x))
 
@@ -9,6 +10,7 @@ segmentos = int(input('Número de Segmentos: '))
 a = float(input('Valor do ponto inicial (a): '))
 b = float(input('Valor do ponto final (b): '))
 
+# Verifica se o numero de segmentos é positivo
 if segmentos == 1:
     resultado = ((funcao(a) + funcao(b)) / 2) * (b - a)
 elif segmentos <= 0:

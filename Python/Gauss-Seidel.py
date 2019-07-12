@@ -2,6 +2,7 @@
 import math
 
 
+# Função para o calculo da matriz
 def cacula(valores, matr, atual, tam):
     resultado = 0
     for k in range(0, tam):
@@ -12,13 +13,17 @@ def cacula(valores, matr, atual, tam):
 
     return resultado / matr[atual][atual]
 
+# Inicio
 
+# Instancia uma lista
 matriz = []
 
+# Instruções para a inserção dos dados
 n = int(input('Digite o tamanho da Matriz: '))
 print('Atenção, ordem das colunas invertidas, digite seguindo de cima a baixo a matriz, ', end='')
 print('e não da esquerda pra direita.')
 
+# Laço de repetição para obter os dados
 for c in range(0, n):
     linha = []
     for l in range(0, n):
@@ -27,13 +32,14 @@ for c in range(0, n):
 
     matriz.append(linha)
 
+# Laço para obter os resultados de cada linha da matriz
 res = []
 for r in range(0, n):
     res.append(float(input('Resutaldo da linha {} : '.format(r))))
 matriz.append(res)
 
+# Obtem a tolerancia a ser atingida
 tolerancia = float(input('Digite a tolerancia: '))
-#valores_init = str(input('Usar valores iniciais ? [y/n] '))
 
 valore_x = [0] * n
 
@@ -41,7 +47,9 @@ erro = -1
 
 interacao = 0
 
+# Laço que será repetido até o erro ficar menor que a tolerancia
 while erro > tolerancia or erro == -1:
+    # Conta as interações
     interacao += 1
     iX = valore_x[0]
     for i in range(0, n):

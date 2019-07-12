@@ -1,4 +1,6 @@
 # Created by: Mário Victor Ribeiro Silva
+
+# Função para verificar se o valor passado é um numero
 def isnumber(var):
     try:
         float(var)
@@ -9,6 +11,7 @@ def isnumber(var):
     return False
 
 
+# Inicialização das variaveis
 inp = 0
 i = int(input('Numero de pontos: '))
 x = []
@@ -17,6 +20,7 @@ k = 0
 
 print('\nX\n')
 
+# Obtenção dos valores de X
 while k < i:
     k = k + 1
     inp = input('Valor de x ({}) : '.format(k))
@@ -26,9 +30,11 @@ while k < i:
 print('\nFx\n')
 inp = 0
 j = 0
+
+# Obtenção dos valores de Y
 while j < i:
     j = j + 1
-    inp = input('Valor de fx ({}) : '.format(j))
+    inp = input('Valor de Y ({}) : '.format(j))
     if isnumber(inp):
         fx.append(float(inp))
     else:
